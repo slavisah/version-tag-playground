@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
           export DATE="$(date +%Y-%m-%d)"
           export COMMIT_SHORT_SHA="$(git rev-parse --short HEAD)"
-          echo "This is the version ${DN}:${DATE}-${COMMIT_SHORT_SHA}"
+          echo "This is the version ${DATE}-${COMMIT_SHORT_SHA}"
